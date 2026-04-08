@@ -1,0 +1,22 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #475569;
+    box-sizing: border-box;
+    line-height: 1.4;
+}
+
+#isBlur {
+    transition: all .3s ease;
+}
+
+#isBlur.active {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(12px);
+    padding: 7px 20px !important;
+    box-shadow: 0 0 2px 0 gray;
+}
+
+.header-cta>div a:hover i {
+    transform: translateX(5px);
+}
