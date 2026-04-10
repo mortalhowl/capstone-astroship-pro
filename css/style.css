@@ -17,7 +17,8 @@ body {
     box-shadow: 0 0 2px 0 gray;
 }
 
-.header-cta>div a:hover i {
+.header-cta>div a:hover i,
+.feature-ov-cta>a:hover i {
     transform: translateX(5px);
 }
 
